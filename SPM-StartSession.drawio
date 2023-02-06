@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T11:40:09.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="wkxNw2VQd5N5oMn1nE9h" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T11:40:45.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="APFjxSyApj5pLg-th1pb" version="20.8.16" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1629" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -46,28 +46,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-5" value=":SeriesListViewModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#66CC00;" parent="1" vertex="1">
-          <mxGeometry x="870" y="80" width="220" height="1070" as="geometry" />
+          <mxGeometry x="890" y="80" width="180" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-5" vertex="1">
-          <mxGeometry x="75" y="275" width="10" height="515" as="geometry" />
+          <mxGeometry x="85" y="280" width="10" height="515" as="geometry" />
         </mxCell>
-        <mxCell id="90dkgZwAsfMruA5nad-L-43" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" parent="7baba1c4bc27f4b0-5" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-130" y="301.88" as="sourcePoint" />
-            <mxPoint x="75" y="301.88" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="90dkgZwAsfMruA5nad-L-44" value="Create&amp;nbsp; SeriesListViewModel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="90dkgZwAsfMruA5nad-L-43" vertex="1" connectable="0">
-          <mxGeometry x="0.2861" y="2" relative="1" as="geometry">
-            <mxPoint x="-31" y="-10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="90dkgZwAsfMruA5nad-L-63" value=":Create ParameterPanelVMs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="90dkgZwAsfMruA5nad-L-43" vertex="1" connectable="0">
-          <mxGeometry x="0.2861" y="2" relative="1" as="geometry">
-            <mxPoint x="169" y="120" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="90dkgZwAsfMruA5nad-L-45" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" parent="7baba1c4bc27f4b0-5" edge="1">
+        <mxCell id="90dkgZwAsfMruA5nad-L-45" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" parent="7baba1c4bc27f4b0-5" edge="1" target="90dkgZwAsfMruA5nad-L-35">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="85" y="360" as="sourcePoint" />
             <mxPoint x="-131.16666666666652" y="360" as="targetPoint" />
@@ -187,6 +171,22 @@
         </mxCell>
         <mxCell id="vVMsU0UwiVYUPc0pxKb--3" value="Output: &lt;br&gt;- ExamCardDetails" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="529.9988235294118" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="90dkgZwAsfMruA5nad-L-43" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0.5;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.047;exitY=0.057;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="90dkgZwAsfMruA5nad-L-35" edge="1" target="7baba1c4bc27f4b0-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="381.88" as="sourcePoint" />
+            <mxPoint x="965" y="381.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90dkgZwAsfMruA5nad-L-44" value="Create&amp;nbsp; SeriesListViewModel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="90dkgZwAsfMruA5nad-L-43" vertex="1" connectable="0">
+          <mxGeometry x="0.2861" y="2" relative="1" as="geometry">
+            <mxPoint x="-31" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90dkgZwAsfMruA5nad-L-63" value=":Create ParameterPanelVMs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="90dkgZwAsfMruA5nad-L-43" vertex="1" connectable="0">
+          <mxGeometry x="0.2861" y="2" relative="1" as="geometry">
+            <mxPoint x="169" y="120" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
